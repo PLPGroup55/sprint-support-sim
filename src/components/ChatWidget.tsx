@@ -8,7 +8,7 @@ type Msg = {
   text: string;
   category?: Category;
   deflected?: boolean;
-  chips?: string[];
+  chips?: string[] | undefined;
 };
 
 const GREETING: Msg = {
