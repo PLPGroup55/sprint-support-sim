@@ -20,6 +20,7 @@
 
 @theme inline {
   --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -85,6 +86,7 @@
   --ring: oklch(0.6 0.14 55);
   --shadow-panel: 0 1px 2px oklch(0.23 0.02 60 / 0.05), 0 12px 32px oklch(0.23 0.02 60 / 0.07);
   --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
